@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 850px; 
+    height: auto; 
+    border: 2px solid #333; 
+    margin: 20px auto; 
+    gap: 10px; 
+    padding: 10px; 
+}
+
+.flex-item {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 10px; 
+}
+
+.first-item {
+    width: 200px;  
+    height: 400px;      
+}
+
+.second-item, .third-item, .fifth-item, .ninth-item {
+    width: 200px;  
+    height: 200px; 
+}
+
+.forth-item, .seventh-item {
+    width: 200px;  
+    height: 400px;      
+}
+
+.sixth-item {
+    width: 410px;  
+    height: 400px;      
+    margin-top: -200px; 
+}
+
+.eighth-item {
+    width: 400px;  
+    height: 200px;      
+    margin-top: -200px; 
+}
+
+.ninth-item {
+    width: 200px;  
+    height: 200px;      
+    margin-top: -200px; /* Updated margin-top for overlap */
+}
